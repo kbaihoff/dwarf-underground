@@ -16,9 +16,6 @@ class App extends Component {
           <Article />
           <Advertisement />
           <OtherArticles />
-
-          
-
         </main>
 
         <footer className="expanded row">
