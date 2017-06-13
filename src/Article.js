@@ -9,13 +9,8 @@ class Article extends React.Component {
     return (
       <div className="large-8 medium-12 columns article">
         <ArticleInfo />
-        
-        
-        
-
         <ArticleBody />
         <ArticleLinks />
-        
       </div>
     )
   }
