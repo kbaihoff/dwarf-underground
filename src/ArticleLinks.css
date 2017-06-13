@@ -30,3 +30,11 @@
 .article-link-text {
   padding-left: 5px;
 }
+
+.commenting {
+  display: none;
+}
+
+.comment-field {
+  margin-top: 30px;
+}
