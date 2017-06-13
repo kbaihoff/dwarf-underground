@@ -4,6 +4,7 @@ import Header from './Header';
 import Article from './Article';
 import Advertisement from './Advertisement';
 import OtherArticles from './OtherArticles';
+import Footer from './Footer'
 
 class App extends Component {
   render() {
@@ -15,10 +16,7 @@ class App extends Component {
           <Advertisement />
           <OtherArticles />
         </main>
-        <footer className="expanded row">
-          <h6>&copy; 2017 Erebor Industries</h6>
-          <h6 className="float-right">All rights reserved</h6>
-        </footer>
+        <Footer />
       </div>
     );
   }
