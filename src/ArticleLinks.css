@@ -37,6 +37,7 @@
 
 .comment-field, .comment-button {
   float: left;
+  height: 100%;
   margin-top: 30px;
 }
 

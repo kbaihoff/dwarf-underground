@@ -3,8 +3,16 @@ import './ArticleLinks.css';
 
 class ArticleLinks extends React.Component {
   clickComment(ev) {
-    ev.target.closest('.article-links').nextElementSibling.style.display = 'flex'
-    console.log(ev.target.closest('.article-links').nextElementSibling.style)
+    const commenting = ev.target.closest('.article-links').nextElementSibling
+    const comment_list = ev.target.closest('.article-links').nextElementSibling.nextElementSibling
+    if (commenting.style.display !== 'flex') {
+      commenting.style.display = 'flex'
+      comment_list.style.display = 'flex'
+    }
+    else {
+      commenting.style.display = 'none'
+      comment_list.style.display = 'none'
+    }
   }
   
   render() {
