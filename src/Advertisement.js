@@ -1,5 +1,5 @@
 import React from 'react';
-import './Advertisement.css'
+import './Advertisement.css';
 
 class Advertisement extends React.Component {
   render() {

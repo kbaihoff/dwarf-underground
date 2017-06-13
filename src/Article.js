@@ -1,20 +1,17 @@
 import React from 'react';
-import './Article.css'
-import ArticleBody from './ArticleBody'
-import ArticleLinks from './ArticleLinks'
+import './Article.css';
+import ArticleInfo from './ArticleInfo';
+import ArticleBody from './ArticleBody';
+import ArticleLinks from './ArticleLinks';
 
 class Article extends React.Component {
   render() {
     return (
       <div className="large-8 medium-12 columns article">
-        <h2 className="article-title">Gold Madness - Fact or Fiction?</h2>
-        <div className="avatar">
-          <img src="http://www.zbrushcentral.com/attachment.php?attachmentid=376082" alt="author" />
-          <div className="author-info">
-            <p className="author-name">By Domri, son of Flug</p>
-            <p className="date">on 28 April, 3018 of the Third Age</p>
-          </div>
-        </div>
+        <ArticleInfo />
+        
+        
+        
 
         <ArticleBody />
         <ArticleLinks />

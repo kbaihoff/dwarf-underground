@@ -1,5 +1,5 @@
 import React from 'react';
-import './ArticleLinks.css'
+import './ArticleLinks.css';
 
 class ArticleLinks extends React.Component {
   render() {
