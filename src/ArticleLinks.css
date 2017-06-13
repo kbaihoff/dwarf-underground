@@ -31,10 +31,20 @@
   padding-left: 5px;
 }
 
-.commenting {
+.commenting, .comment-list {
   display: none;
 }
 
-.comment-field {
+.comment-field, .comment-button {
+  float: left;
   margin-top: 30px;
+}
+
+.comment-field {
+  max-width: 90%;
+}
+
+.comment-button {
+  border: 1px solid black;
+  margin-left: 20px;
 }

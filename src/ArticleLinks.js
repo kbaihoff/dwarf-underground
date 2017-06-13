@@ -3,7 +3,7 @@ import './ArticleLinks.css';
 
 class ArticleLinks extends React.Component {
   clickComment(ev) {
-    ev.target.closest('.article-links').nextElementSibling.style.display = 'inline'
+    ev.target.closest('.article-links').nextElementSibling.style.display = 'flex'
     console.log(ev.target.closest('.article-links').nextElementSibling.style)
   }
   
@@ -23,6 +23,8 @@ class ArticleLinks extends React.Component {
         <div className="commenting">
           <input type="text" className="comment-field" placeholder="Comment here..." />
           <button type="submit" className="comment-button">Sayeth</button>
+        </div>
+        <div className="comment-list">
           <ul className="no-bullet">
             <li>Test</li>
           </ul>
