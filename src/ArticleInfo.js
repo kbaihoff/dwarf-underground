@@ -14,8 +14,8 @@ class ArticleInfo extends React.Component {
           </div>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default ArticleInfo
+export default ArticleInfo;

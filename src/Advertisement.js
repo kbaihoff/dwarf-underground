@@ -1,6 +1,6 @@
 import React from 'react';
 import './Advertisement.css';
-import AdvertisementText from './AdvertisementText'
+import AdvertisementText from './AdvertisementText';
 
 class Advertisement extends React.Component {
   render() {
@@ -15,8 +15,8 @@ class Advertisement extends React.Component {
           <AdvertisementText />
         </div>
       </aside>
-    )
+    );
   }
 }
 
-export default Advertisement
+export default Advertisement;

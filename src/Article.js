@@ -12,8 +12,8 @@ class Article extends React.Component {
         <ArticleBody />
         <ArticleLinks />
       </div>
-    )
+    );
   }
 }
 
-export default Article
+export default Article;

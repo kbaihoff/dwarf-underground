@@ -10,8 +10,8 @@ class AdvertisementText extends React.Component {
 
         <p className="ad-text">Sic tempus fugit esperanto hiccup estrogen. Glorious baklava ex librus hup hey ad infinitum. Non sequitur condominium facile et geranium incognito. Epsum factorial non deposit quid pro quo hic escorol. Marquee selectus non provisio incongruous feline nolo contendre Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum.</p>
       </div>
-    )
+    );
   }
 }
 
-export default AdvertisementText
+export default AdvertisementText;

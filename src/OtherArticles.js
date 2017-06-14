@@ -10,7 +10,7 @@ class OtherArticles extends React.Component {
         {s: "https://images.fineartamerica.com/images-medium-large-5/rocky-mountain-landscape-meadow-in-spring-western-panorama-with-wildflowers-square-format-walt-curlee.jpg", a: "mountain", para: "You won't believe what's under this mountain"},
         {s: "http://orig01.deviantart.net/a278/f/2010/357/9/7/seamless___gold_coins_by_bartalon-d35iydr.jpg", a: "gold", para: "Mine 20% more gold with One Weird Trick"},
         {s: "http://cdn23.us1.fansshare.com/photos/thehobbit/the-hobbit-square-characters-833282558.jpg", a: "hobbit", para: "Surprise for Indiana Hobbits born before 1999"}
-      ]
+      ],
     }
   }
   
@@ -27,8 +27,8 @@ class OtherArticles extends React.Component {
           </div>)
         })}
       </div>
-    )
+    );
   }
 }
 
-export default OtherArticles
+export default OtherArticles;

@@ -12,8 +12,8 @@ class Header extends React.Component {
           <h3>Delving deep for the <span className="gold">shiniest</span> news</h3>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default Header
+export default Header;

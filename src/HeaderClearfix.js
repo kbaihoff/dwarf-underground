@@ -14,8 +14,8 @@ class HeaderClearfix extends React.Component {
           <a href="#">Log in</a>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default HeaderClearfix
+export default HeaderClearfix;

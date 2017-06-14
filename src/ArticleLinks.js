@@ -57,8 +57,8 @@ class ArticleLinks extends React.Component {
           </ul>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default ArticleLinks
+export default ArticleLinks;
