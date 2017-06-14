@@ -2,6 +2,13 @@ import React from 'react';
 import './ArticleLinks.css';
 
 class ArticleLinks extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      comments: [],
+    }
+  }
+  
   clickComment(ev) {
     const commenting = ev.target.closest('.article-links').nextElementSibling
     const comment_list = ev.target.closest('.article-links').nextElementSibling.nextElementSibling
@@ -13,6 +20,14 @@ class ArticleLinks extends React.Component {
       commenting.style.display = 'none'
       comment_list.style.display = 'none'
     }
+  }
+
+  handleSubmit(ev) {
+    ev.preventDefault()
+    const comments = [...this.state.comments]
+    comments.push(this.commentField.value)
+    this.setState({ comments: comments })
+    ev.currentTarget.reset()
   }
   
   render() {
@@ -28,10 +43,10 @@ class ArticleLinks extends React.Component {
             <span className="article-link-text">Share Post</span>
           </a>
         </div>
-        <div className="commenting">
-          <input type="text" className="comment-field" placeholder="Comment here..." />
+        <form className="commenting" onSubmit={this.handleSubmit.bind(this)}>
+          <input type="text" className="comment-field" ref={(input) => this.commentField = input} placeholder="Comment here..." />
           <button type="submit" className="comment-button">Sayeth</button>
-        </div>
+        </form>
         <div className="comment-list">
           <ul className="no-bullet">
             <li>Test</li>

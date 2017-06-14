@@ -37,7 +37,7 @@
 
 .comment-field, .comment-button {
   float: left;
-  height: 100%;
+  height: 50px;
   margin-top: 30px;
 }
 
@@ -48,4 +48,5 @@
 .comment-button {
   border: 1px solid black;
   margin-left: 20px;
+  padding: 10px;
 }
