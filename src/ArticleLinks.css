@@ -47,7 +47,16 @@
 }
 
 .comment-button {
+  background: #EAE9E6;
+  background: -webkit-radial-gradient(to center, #D5D3D1, #EAE9E6);
+  background: radial-gradient(to center, #D5D3D1, #EAE9E6);
+  background-image: url('Stone.jpeg');
+  background-size: 100% 100%;
   border: 1px solid black;
+  border-radius: 12px;
+  color: #E0DDDA;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: bold;
   margin-left: 20px;
   padding: 10px;
 }

@@ -24,6 +24,9 @@ class ArticleLinks extends React.Component {
 
   handleSubmit(ev) {
     ev.preventDefault()
+    if (this.commentField.value.length <= 0) {
+      return
+    }
     const comments = [...this.state.comments]
     comments.push(this.commentField.value)
     this.setState({ comments: comments })
