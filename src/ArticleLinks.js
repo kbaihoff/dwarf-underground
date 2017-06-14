@@ -14,7 +14,7 @@ class ArticleLinks extends React.Component {
     const comment_list = ev.target.closest('.article-links').nextElementSibling.nextElementSibling
     if (commenting.style.display !== 'flex') {
       commenting.style.display = 'flex'
-      comment_list.style.display = 'flex'
+      comment_list.style.display = 'block'
     }
     else {
       commenting.style.display = 'none'
@@ -48,8 +48,9 @@ class ArticleLinks extends React.Component {
           <button type="submit" className="comment-button">Sayeth</button>
         </form>
         <div className="comment-list">
+          <h4>Comments:</h4>
           <ul className="no-bullet">
-            <li>Test</li>
+            {this.state.comments.map((comment, i) => <li key={i}>{comment}</li>)}
           </ul>
         </div>
       </div>

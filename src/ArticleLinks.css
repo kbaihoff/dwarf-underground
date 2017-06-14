@@ -43,10 +43,28 @@
 
 .comment-field {
   max-width: 90%;
+  word-wrap: break-word;
 }
 
 .comment-button {
   border: 1px solid black;
   margin-left: 20px;
   padding: 10px;
+}
+
+h4 {
+  display: 'block';
+  margin-top: 15px;
+  min-width: 100%;
+}
+
+ul {
+  background-color: #F7F0E4;
+  border: 1px ridge tan;
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+li {
+  margin-bottom: 20px;
 }
