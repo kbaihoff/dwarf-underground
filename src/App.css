@@ -1,4 +1,3 @@
-/* React only takes control at the div, and the body is outside of that; change to largest div to regain the control */
 .App {
   font-family: 'Cinzel Decorative', cursive;
   background: whitesmoke;
